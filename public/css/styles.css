@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: none;
+    background-color:#303030;
+    color:  white;
+}
+#newRecords {
+    display:none;
+    background-color: #212121;
+    color: white;
+    padding: 8px;
+}
+#root {
+    max-width: 900px;
+    margin: 0 auto;
+}
+#disp-ses h4{
+    background-color:#424242;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color:#424242;
+
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    background-color:#424242;
+
+}
+
+h4 {
+    text-align: center;
+    margin: 12px 8px;
+    background-color: #212121;
+
+}
+
+button {
+    background: #7e328d;
+    margin-left: 5px;
+    padding: 5px 10px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px 4px;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem auto;
+    background-color:#424242;
+    padding: 60px 0;
+    width:250px;
+}
+
+.sessions {
+    margin:  8px auto;
+    padding: 6px;
+    width: 93%;
+    background-color:#424242;
+
+}
+.studId {
+    display: none;
+}
+.container-ses {
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    background-color:#424242;
+
+}
+@media screen and (max-width:675px) {
+    .sm {
+        display:none;
+    }
+}
+
+
+
